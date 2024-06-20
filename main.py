@@ -37,7 +37,7 @@ def main(data):
         else:
             print('Error: PocketFI is down. Received status code:', response.status_code)
     except:
-        print('error.')
+        print('error. Nothing todo')
 
 
 if __name__ == '__main__':
